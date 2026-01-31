@@ -44,7 +44,7 @@ class RoleSelectionScreen extends StatefulWidget {
 
 class _RoleSelectionScreenState extends State<RoleSelectionScreen> {
   // 📝 STATE: The Editable Text
-  String _makerInfo = "Project: Headless Migration Agent (NMIMS Hackathon)\n\n"
+  final String _makerInfo = "Project: Headless Migration Agent (NMIMS Hackathon)\n\n"
       "Purpose: Simulating a live migration from a monolithic architecture to a headless API-driven system according to the hackathon problem statement.\n\n"
       "Built by: Team Orbit consisting Pushkar Wagh, Anika Nair and Srishti Mishra.\n"
       "Status: Prototype V1";

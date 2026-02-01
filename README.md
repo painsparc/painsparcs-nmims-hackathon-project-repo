@@ -1,16 +1,32 @@
-# migration
+YOU CAN TEST THE PROTOTYPE HERE:
+migrationhackathonproject.web.app
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+THE AI AGENT IS USED IN THESE FOLLOWING PLACES:
 
-A few resources to get you started if this is your first Flutter project:
+TO ANALYZE THE DATA BEFOREHAND OF MIGRATION TO FIX IT AND ENSURE PERFECT MIGRATION.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+STILL IF MIGRATION HAPPENS THE AI AGENT FIXES ALL ISSUES USING ITS MEMORY AND LEARNING IT DID.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+THEN THE LOGGED TICKETS ARE ALSO HANDLED BY THE AI
+
+AND THEN FINALLT TO REDIRECT USERS ON OLD API TO THE NEW API
+
+
+
+
+
+
+
+
+FRONT END:
+
+Dart is used for front end and the repo has the android as well as the web app in it.
+
+
+BACK END:
+Firebase is used to store documents and provess the migration and all.
+
+AGENTS: 
+The latest gemeini is integrated into it.

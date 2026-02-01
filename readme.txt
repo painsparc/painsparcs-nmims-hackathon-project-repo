@@ -226,18 +226,6 @@ No external e-commerce system is required.
 
 ---
 
-## 🚀 Next Steps (Optional)
-
-Although the core system is complete, future polish could include:
-
-* visual migration timelines
-* automated migration suggestions
-* deeper NLP explanation support
-
-These are **not required** for core submission.
-
----
-
 ## 🧾 Repository
 
 🔗 [https://github.com/painsparc/painsparcs-nmims-hackathon-project-repo](https://github.com/painsparc/painsparcs-nmims-hackathon-project-repo) ([GitHub][1])
@@ -247,4 +235,5 @@ These are **not required** for core submission.
 ## 🏁 Summary
 
 This repo contains a **complete agentic system** for preventing and resolving platform failures during headless migrations. It demonstrates real agent reasoning with memory, explainability, and adaptive learning.
+
 

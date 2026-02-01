@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "migrationhackathonproject",
+          "appId": "1:301831506728:android:05b10343d461921ca75e1d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "migrationhackathonproject",
+          "configurations": {
+            "android": "1:301831506728:android:05b10343d461921ca75e1d",
+            "web": "1:301831506728:web:2b1bd1ef74e53f64a75e1d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

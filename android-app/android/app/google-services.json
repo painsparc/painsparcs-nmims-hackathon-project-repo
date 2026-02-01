@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301831506728",
+    "project_id": "migrationhackathonproject",
+    "storage_bucket": "migrationhackathonproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301831506728:android:05b10343d461921ca75e1d",
+        "android_client_info": {
+          "package_name": "com.example.migration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCSpEksY_HzfkWapgOI0DJXlXqzeR_knI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

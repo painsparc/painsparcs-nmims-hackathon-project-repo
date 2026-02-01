@@ -1,0 +1,67 @@
+name: migration_agent_dashboard
+description: Admin dashboard for the Agentic AI Migration System.
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- FIREBASE CORE (The Backend) ---
+  # Essential for connecting to your project
+  firebase_core: ^3.6.0
+  # The database for Organizations, Logs, and Agent Decisions
+  cloud_firestore: ^5.4.0
+  
+  # --- FUTURE AUTHENTICATION ---
+  # You will likely need this later so only Admins can access this dashboard
+  # firebase_auth: ^5.3.1 
+
+  # --- UTILITIES ---
+  # Used to generate random API Keys (e.g., 'sk_live_550e84...')
+  uuid: ^4.5.1
+  # Used for formatting Timestamps in logs (e.g., 'Jan 31, 14:00')
+  intl: ^0.19.0
+  # Used for making HTTP calls (to simulate Webhooks or test endpoints)
+  http: ^1.2.2
+
+  # --- UI & STATE MANAGEMENT ---
+  # The standard for managing app state (Agent State, User Session)
+  provider: ^6.1.2
+  # For that "System/Hacker" aesthetic (Monospace fonts for logs)
+  google_fonts: ^6.2.1
+  # Nice icons for the dashboard
+  font_awesome_flutter: ^10.7.0
+
+  # --- AGENT VISUALIZATION (For later) ---
+  # To render the Agent's reasoning which might come as Markdown text
+  flutter_markdown: ^0.7.4
+  # To visualize Error Rates vs Migration Stage (Agent Analytics)
+  fl_chart: ^0.69.0
+  # To create smooth animations when the Agent is "Thinking"
+  flutter_animate: ^4.5.0
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linter to keep your code clean and "Brutal"
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Start using Google Fonts immediately
+  #fonts:
+  #  - family: RobotoMono
+  #    fonts:
+   #     - asset: fonts/RobotoMono-Regular.ttf
+  
+  # If you add local assets later (like a logo)
+  # assets:
+  #   - assets/images/

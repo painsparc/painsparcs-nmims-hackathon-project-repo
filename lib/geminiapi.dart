@@ -2,7 +2,6 @@ import 'dart:developer';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
-  // ⚠️ SECURITY NOTE: In a real production app, restrict this key in Google Cloud Console
   // or proxy it through a backend. For this hackathon/demo, hardcoding is acceptable.
   static const String _apiKey = "myapikey"; 
   
